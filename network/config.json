@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sara"
+  },
+  "text": {
+    "more": "En este grafo se muestra quién ha mencionado,  contestado o retwitteado a la cuenta de Quedadas Estelares",
+    "intro": "Grafo con las últimas interacciones con la cuenta de Quedadas Estelares",
+    "title": "Interacciones de Quedadas Estelares"
+  },
+  "legend": {
+    "edgeLabel": "Interacciones",
+    "colorLabel": "Grupos",
+    "nodeLabel": "Personas"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "name"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
